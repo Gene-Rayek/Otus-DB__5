@@ -1,7 +1,7 @@
 # Otus-DB__5
  DML: вставка, обновление, удаление, выборка данных
 
-1) SELECT с регулярным выражением + пояснение
+1) SELECT с регулярным выражением 
 
 Ищем корректные email-адреса 
 ```
@@ -98,7 +98,7 @@ RETURNING p.id, p.product_id, p.customer_id, p.valid_from;
 ```
 <img width="646" height="228" alt="image" src="https://github.com/user-attachments/assets/b61a5b16-0ecb-4a74-8f94-c7ccc70ebc5f" />
 
-6. COPY (серверный файл; в Docker, внутри контейнера)
+*. COPY (серверный файл; в Docker, внутри контейнера)
 
   ```
  COPY catalog.customers
